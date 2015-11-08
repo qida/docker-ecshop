@@ -10,8 +10,8 @@ RUN rm -Rf /app/kod/.git
 #RUN mkdir -p /app/upload
 #VOLUME /app/upload
 #download ecshop
-RUN wget -P /app http://7xo5s9.dl1.z0.glb.clouddn.com/ecshop-2.7.3.zip
-RUN unzip /app/ecshop-2.7.3.zip -d /app
+#RUN wget -P /app http://7xo5s9.dl1.z0.glb.clouddn.com/ecshop-2.7.3.zip
+#RUN unzip /app/ecshop-2.7.3.zip -d /app
 WORKDIR /app
 EXPOSE 80
 CMD ["/run.sh"]
