@@ -1,4 +1,4 @@
-FROM tenxcloud.com/sunqida/base-apache-php
+FROM daocloud.io/sunqida/base-apache-php:master-init
 # Add image configuration and scripts
 ADD run.sh /run.sh
 RUN chmod 755 /*.sh
