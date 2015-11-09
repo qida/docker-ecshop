@@ -1,3 +1,3 @@
-# docker-ecshop-v1
+# docker-ecshop
 #
 2.7.4 Beta1
